@@ -1,0 +1,10 @@
+{
+  "name": "uniapp-android-sdk",
+  "version": "1.0.0",
+  "description": "lib files in uniapp android SDK.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wtto00 <wtto00@outlook.com>",
+  "license": "MIT"
+}
