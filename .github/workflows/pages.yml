@@ -40,8 +40,6 @@ jobs:
       - run: node index.mjs
 
       # github pages
-      - name: Setup Pages
-        uses: actions/configure-pages@v2
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
