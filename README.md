@@ -1,6 +1,6 @@
 # uniapp-android-sdk
 
-lib files in uniapp android SDK.
+UniApp 安卓 SDK 中的 lib 文件。
 
 - `files.json`: md5 索引，防止重复的文件
 - `copy.mjs`: 处理 lib 文件的脚本。
