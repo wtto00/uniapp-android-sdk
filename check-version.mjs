@@ -28,7 +28,7 @@ if (!latest) {
 
 console.log(`查询到最新版本SDK为: ${latest}`);
 
-const octokit = new Octokit();
+const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
 
 const issuesRes = await octokit.rest.search.issuesAndPullRequests({
   q: `${latest}+is:issue`,
@@ -48,6 +48,8 @@ if (issue) {
   process.exit(0);
 }
 
+console.log("没有查询到该版本的Issue，开始创建Issue");
+
 const create = await octokit.rest.issues.create({
   owner: "wtto00",
   repo: "uniapp-android-sdk",
@@ -61,4 +63,3 @@ if (create.status !== 200) {
 }
 
 console.log(`创建Issue成功: ${create.url}`);
-process.exit(0);

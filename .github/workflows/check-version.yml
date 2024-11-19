@@ -26,3 +26,5 @@ jobs:
       # github pages
       - name: Check Version Update
         run: node check-version.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
