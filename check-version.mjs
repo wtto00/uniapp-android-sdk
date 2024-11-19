@@ -54,7 +54,11 @@ const create = await octokit.rest.issues.create({
   owner: "wtto00",
   repo: "uniapp-android-sdk",
   title: latest,
-  body: `A new version of the Android offline SDK is now available!\n\nGo to [download](${url}) and sync the repository.`,
+  body: `A new version of the Android offline SDK is now available!
+
+Go to [download](${url}) and sync the repository.
+
+Query NPM dependency [@dcloudio/uni-app](https://www.npmjs.com/package/@dcloudio/uni-app?activeTab=versions) version.`,
 });
 
 if (!create.status.toString().startsWith("2")) {
