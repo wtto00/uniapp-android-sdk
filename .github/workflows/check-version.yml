@@ -11,6 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            check-version.mjs
+            package.json
+            pnpm-lock.yaml
 
       - run: corepack enable
 

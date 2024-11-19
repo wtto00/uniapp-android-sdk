@@ -44,7 +44,7 @@ const { items } = issuesRes.data;
 const issue = items.find((item) => item.title === latest);
 
 if (issue) {
-  console.log(`已存在最新版本: https://github.com/wtto00/uniapp-android-sdk/issues/${issue.id}`);
+  console.log(`已存在最新版本的Issue: https://github.com/wtto00/uniapp-android-sdk/issues/${issue.id}`);
   process.exit(0);
 }
 
@@ -57,9 +57,9 @@ const create = await octokit.rest.issues.create({
   body: `A new version of the Android offline SDK is now available!\n\nGo to [download](${url}) and sync the repository.`,
 });
 
-if (create.status !== 200) {
+if (!create.status.toString().startsWith("2")) {
   console.error("创建Issue失败了: ", create);
   process.exit(1);
 }
 
-console.log(`创建Issue成功: ${create.url}`);
+console.log(`创建Issue成功: ${create.data.url}`);
