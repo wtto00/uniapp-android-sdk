@@ -335,5 +335,10 @@
   "158608daa2829ac7e404ddf07ae50567": "3.0.0-4040420241231001/weex_google-map-release.aar",
   "13dfb84d52ceed537b6ef54e1bc9ae6a": "3.0.0-4040420241231001/weex_livepusher-release.aar",
   "6fa8a775690e2017eb3295aac355f5c1": "3.0.0-4040420241231001/weex_videoplayer-release.aar",
-  "fbeffe03409818b81f2597083e88c9a5": "3.0.0-4040420241231001/weex_webview-x5-release.aar"
+  "fbeffe03409818b81f2597083e88c9a5": "3.0.0-4040420241231001/weex_webview-x5-release.aar",
+  "7ee91ff503327013148a547808dd8ef9": "3.0.0-4040520250103001/ads-csj-release.aar",
+  "60bb1284fd3f4f7911f7e3a0a73ca90e": "3.0.0-4040520250103001/ads-gromore-release.aar",
+  "d190bf3912d82fe53126d41857c57876": "3.0.0-4040520250103001/lib.5plus.base-release.aar",
+  "66478ab0a5e38a0e2e3e48f0cef2bbfb": "3.0.0-4040520250103001/uniapp-v8-release.aar",
+  "3061832bf137c6e91a5937ffb7c8da08": "3.0.0-4040520250103001/utsplugin-release.aar"
 }
