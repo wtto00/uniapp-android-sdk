@@ -21,18 +21,9 @@ for (const version of versionsSorted) {
   list.push(`<details><summary>${version}</summary><ul>${link.join("")}</ul></details>`);
 }
 
-const html =
-  "<!DOCTYPE html>" +
-  '<html lang="zh-CN">' +
-  "<head>" +
-  '<meta charset="UTF-8" />' +
-  '<meta name="viewport" content="width=device-width, initial-scale=1.0" />' +
-  "<title>UniApp SDK</title>" +
-  "</head>" +
-  "<body>" +
-  `${list.join("")}` +
-  "</body>" +
-  "</html>";
+const html = `<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>UniApp Android SDK</title></head><body>${list.join(
+  ""
+)}</body></html>`;
 
 const htmlPath = path.resolve(import.meta.dirname, "public/index.html");
 
