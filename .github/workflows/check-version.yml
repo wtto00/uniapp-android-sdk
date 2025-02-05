@@ -17,7 +17,7 @@ jobs:
             package.json
             pnpm-lock.yaml
 
-      - run: corepack enable pnpm
+      - run: npm i -g corepack@latest
 
       - uses: actions/setup-node@v4
         with:
