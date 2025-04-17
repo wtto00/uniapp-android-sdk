@@ -373,5 +373,8 @@
   "0dec136a3c4c18c464f9ec629ff33124": "3.0.0-4050620250312001/uni-prompt-release.aar",
   "cb7dde8dd42a1a854d77f1a884ae199e": "3.0.0-4050620250312001/uni-storage-release.aar",
   "fec9ceec9b9cabbfcdd56dd3f9c43bf8": "3.0.0-4050620250312001/uniapp-v8-release.aar",
-  "8bce4d7551bbf2949ad5038b4b3a1d48": "3.0.0-4050620250312001/utsplugin-release.aar"
+  "8bce4d7551bbf2949ad5038b4b3a1d48": "3.0.0-4050620250312001/utsplugin-release.aar",
+  "f3a937512f5ccb160d25c3eee2a9206f": "3.0.0-4050720250324001/lib.5plus.base-release.aar",
+  "124953225541500be6684e97d400f250": "3.0.0-4050720250324001/uniapp-v8-release.aar",
+  "62fbf059e7ad00ff2cefc8516d59a115": "3.0.0-4050720250324001/utsplugin-release.aar"
 }
